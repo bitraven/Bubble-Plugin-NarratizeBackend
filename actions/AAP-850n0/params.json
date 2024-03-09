@@ -1,0 +1,78 @@
+{
+    "category": "plugins",
+    "display": "Narratize : Generate JSON Payload",
+    "fields": {
+        "AAQ": {
+            "caption": "transformDocUUID",
+            "editor": "DynamicValue",
+            "name": "transformDocUUID",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAR": {
+            "caption": "backendAPIType",
+            "editor": "DynamicValue",
+            "name": "backendAPIType",
+            "rank": 6,
+            "value": "text"
+        },
+        "AAS": {
+            "caption": "callbackURL",
+            "editor": "DynamicValue",
+            "name": "callbackURL",
+            "rank": 7,
+            "value": "text"
+        },
+        "AAT": {
+            "caption": "questions",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "questions",
+            "optional": true,
+            "rank": 3,
+            "value": "text"
+        },
+        "AAU": {
+            "caption": "answers",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "answers",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        },
+        "AAV": {
+            "caption": "transformKey",
+            "editor": "DynamicValue",
+            "name": "transformKey",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAW": {
+            "caption": "answersRequired",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "answersRequired",
+            "optional": true,
+            "rank": 5,
+            "value": "boolean"
+        },
+        "AAX": {
+            "caption": "uploadedContent",
+            "editor": "DynamicValue",
+            "name": "uploadedContent",
+            "optional": true,
+            "rank": 2,
+            "value": "text"
+        }
+    },
+    "return_value": {
+        "AAY": {
+            "caption": "jsonPayload",
+            "name": "jsonPayload",
+            "rank": 0,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}

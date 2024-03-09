@@ -1,0 +1,6 @@
+{
+    "description": "A plugin to facilitate backend operations for Narratize",
+    "license": "private",
+    "name": "NarratizeBackend",
+    "sa_node_version": 18
+}
