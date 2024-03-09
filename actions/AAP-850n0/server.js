@@ -7,7 +7,7 @@ async function(properties, context) {
 	
     console.log("HERE I AM!!!! (from github) : imported message: ", exportedLogMessage)
 
-	console.log("START  :  NarratizeBackend : Narratize : Generate JSON Payload ddd")
+    console.log("START  :  NarratizeBackend : Narratize : Generate JSON Payload ddd")
 
     const TEST_TRANSFORM_KEY = 'Simplify';
 
@@ -395,10 +395,8 @@ async function(properties, context) {
     let fullString = JSON.stringify(fullJSON)
 
     console.log("fullString: ", fullString);
-
     console.log("");
-
-	console.log("END  :  NarratizeBackend : Narratize : Generate JSON Payload")
+    console.log("END  :  NarratizeBackend : Narratize : Generate JSON Payload")
     
     return { jsonPayload: fullString }
 }
