@@ -1,5 +1,6 @@
 async function(properties, context) {
-    
+    import {} from './test.js';
+	
     console.log("HERE I AM!!!! (from github)")
 
 	function generateHeader(uniqueID, type, callBackUrl) {
