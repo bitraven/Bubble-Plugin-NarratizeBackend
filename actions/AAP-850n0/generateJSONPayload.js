@@ -6,6 +6,10 @@ import * as test from './test.js';
 import { example_properties } from './exampleProperties.js';
 import * as generator from './generator.js';
 
+export function test() {
+    console.log("test worked");
+}
+
 export function generateJSONPayload (properties, context) {
     console.log("HERE I AM!!!! (from github) : imported message: ", exportedLogMessage);
     console.log("START  :  NarratizeBackend : Narratize : Generate JSON Payload ddd");
