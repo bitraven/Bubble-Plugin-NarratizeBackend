@@ -1,7 +1,7 @@
 async function(properties, context) {
-    import {} from './test.js';
+    import { exportedLogMessage } from './test.js';
 	
-    console.log("HERE I AM!!!! (from github)")
+    console.log("HERE I AM!!!! (from github) : imported message: ", exportedLogMessage)
 
 	function generateHeader(uniqueID, type, callBackUrl) {
   		var result = {}
