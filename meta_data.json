@@ -1,4 +1,8 @@
 {
+    "categories": {
+        "0": "technical",
+        "1": "data (things)"
+    },
     "description": "A plugin to facilitate backend operations for Narratize",
     "license": "private",
     "name": "NarratizeBackend",

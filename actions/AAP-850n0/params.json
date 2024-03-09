@@ -72,6 +72,51 @@
             "name": "jsonPayload",
             "rank": 0,
             "value": "text"
+        },
+        "AAZ": {
+            "caption": "argTransformKey",
+            "name": "argTransformKey",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAa": {
+            "caption": "argTransformDocUUID",
+            "name": "argTransformDocUUID",
+            "rank": 2,
+            "value": "text"
+        },
+        "AAb": {
+            "caption": "argQuestions",
+            "is_list": true,
+            "name": "argQuestions",
+            "rank": 3,
+            "value": "text"
+        },
+        "AAc": {
+            "caption": "argAnswers",
+            "is_list": true,
+            "name": "argAnswers",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAd": {
+            "caption": "argAnswersRequired",
+            "is_list": true,
+            "name": "argAnswersRequired",
+            "rank": 5,
+            "value": "boolean"
+        },
+        "AAe": {
+            "caption": "argBackendAPIType",
+            "name": "argBackendAPIType",
+            "rank": 6,
+            "value": "text"
+        },
+        "AAf": {
+            "caption": "argCallbackURL",
+            "name": "argCallbackURL",
+            "rank": 7,
+            "value": "text"
         }
     },
     "type": "server_side"
