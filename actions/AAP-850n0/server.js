@@ -1,6 +1,6 @@
 async function(properties, context) {
     
-    console.log("HERE I AM!!!!")
+    console.log("HERE I AM!!!! (from github)")
 
 	function generateHeader(uniqueID, type, callBackUrl) {
   		var result = {}
